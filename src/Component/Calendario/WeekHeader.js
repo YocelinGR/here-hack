@@ -16,7 +16,6 @@ const StyledSpan = styled.span`
   padding: 0.5rem;
 `;
 
-//bajando cambios
 const WeekHeader = () => (
   <StyledDiv>
     <StyledSpan>S</StyledSpan>
