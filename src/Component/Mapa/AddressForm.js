@@ -22,6 +22,7 @@ class AddressForm extends Component {
     this.onClear = this.onClear.bind(this);
   }
 
+  
   onQuery(evt) {
     const query = evt.target.value;
 
