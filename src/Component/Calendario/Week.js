@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import DateUtilities from './utils';
 import { dateTimeFormat } from './dateUtils';
+import './Calendario.css';
 
 const StyledWeek = styled.div`
   display: flex;

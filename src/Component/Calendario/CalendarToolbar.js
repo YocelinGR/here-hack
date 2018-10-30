@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { dateTimeFormat } from './dateUtils';
 import styled from 'styled-components';
+import './Calendario.css';
 
 const Icon = styled.button`
   border: none;

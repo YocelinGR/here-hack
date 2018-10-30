@@ -1,0 +1,57 @@
+
+
+html{
+    background-color:#48dad0;
+}
+.style1{
+    background-color:#48dad0;
+}
+input{
+    width: 62%;
+    height: 80px;
+    margin-top: 45%;
+    margin-left: 20%;
+    background-color: #ffb10a;
+    border-radius: 17px;
+    font-family: 'Milford';
+    font-size:20px;
+}
+
+.btn-confirmar {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #261b02;margin-top: 130%;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: Milford;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: center;
+   
+ }
+ .btn-conductor:hover {
+    background-color: #000000;
+    color: white;
+ }
+
+ .btn-confirmar1{
+    width: 184px;
+    height: 60px;
+    border-radius: 13px;
+    margin-left: 68px;
+    
+ }
+
+ .btn-confirmar1:hover {
+    background-color: #000000;
+    color: white;
+ }

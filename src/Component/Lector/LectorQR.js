@@ -37,7 +37,6 @@ class Lector extends Component {
           onError={this.handleError}
           onScan={this.handleScan}
           />
-          
           </div>
           <div className="row nombre">
         <h3>{this.state.result}</h3>
