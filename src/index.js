@@ -5,12 +5,13 @@ import App from './App';
 import Location from './Location';
 import Map from './Map';
 import LoginPassword from './Component/LoginPassword/LoginPassord';
+import VistaPerfiles from './Component/VistaPerfiles/VistaPerfiles';
 
 
 import * as serviceWorker from './serviceWorker';
 import Calendario from './Component/Calendario';
 
 
-ReactDOM.render(<Calendario/>, document.getElementById('root'));
+ReactDOM.render(<VistaPerfiles/>, document.getElementById('root'));
 
 serviceWorker.unregister();

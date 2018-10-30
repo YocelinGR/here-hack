@@ -4,6 +4,7 @@ import { Config } from '../../Config'; // eslint-disable-next-line
 import './LoginPassword.css'
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import Location from '../../Location';
 
 class LoginPassword extends Component{
   state = { isSignedIn: false}
@@ -40,10 +41,15 @@ class LoginPassword extends Component{
             (<img className = "photo-user" alt = "foto de usuario" src= {firebase.auth().currentUser.photoURL} />)}
             <button className = "btn btn-floating lighten-1 btn-user" onClick={() => firebase.auth().signOut()}>Salir</button>
           </div>
+          <div className= "conductor-dasboard">
+          <button className = "btn btn-floating lighten-1 btn-user">911</button>
+          </div>
         </div>
         ) : (
         <div className="btns-login">
-          <h3>Bienvenido Conductor: Empieza bien tu  día </h3>
+          <h2>Digital Transport</h2>
+          <h3>Por que la seguridad de tus hijos es igual de importante para nosotros</h3>
+          <h4>Bienvenido Conductor: Empieza bien tu  día </h4>
             <StyledFirebaseAuth uiConfig= {this.uiConfig} firebaseAuth = {firebase.auth()} />
         </div>
         )}
