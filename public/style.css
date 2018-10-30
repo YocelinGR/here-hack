@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 #map{
     display: none;
     width: 100%; 
     height: 400px; 
     background: grey;
 }
+=======
+#map {
+    display: none;
+    width: 100%;
+    height: 400px;
+    background: grey";
+}
+
+ 
+>>>>>>> upstream/master

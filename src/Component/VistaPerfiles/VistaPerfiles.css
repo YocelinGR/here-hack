@@ -1,9 +1,115 @@
 .btn-perfil {
     background-color: #48DAD0;
+}
+.btn-padre {
+    width: 300px;
+    height: 65px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffb10a;
+    margin-top: 100%;
+    margin-left: 15%;
+    font-family: Milford;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: center;
+}
+.btn-padre:hover {
+    background-color: #996800;
+    color: gray;
+}
+.btn-conductor {
+    width: 300px;
+    height: 65px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #261b02;margin-top: 130%;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: Milford;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
     color: white;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: center;
+}
+.btn-conductor:hover {
+    background-color: #000000;
+    color: white;
+}
+.vertical-line-right {
+    width: 80px;
+    height: 6px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    background-color: #ffb10a;
+    position: fixed;
+    top: 9%;
+    right: 0%;
+}
+.vertical-line-left {
+    width: 144px;
+    height: 6px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    background-color: #ffb10a;
+    position: fixed;
+    top: 40%;
+    left: 0%;
+}
+.vertical-line {
+    background-color: black;
+    width: 1px;
+    height: 25%;
+    position: absolute;
+    padding-left: 0.2%;
+    margin-left: 35%;
+    margin-top: 16.5%;
+    z-index: 0;
+}
+.vertical-line-ligth {
+    width: 98px;
+    height: 1px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    background-color: #000000;
+    position: fixed;
+    top: 10%;
+    right: 25%;
+}
+.bus-img {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 25%;
+    z-index: 1;
+}
+.letter {
+    width: 80px;
+    height: 50px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 0.5px #000000;
+    font-family: Milford;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    position: fixed;
+    top:22%;
+    left:55%;
 }
