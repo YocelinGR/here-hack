@@ -5,8 +5,11 @@ import VistaAdmin from './Component/VistaAdmin/VistaAdmin';
 import VistaEscuela from './Component/VistaEscuela/VistaEscuela';
 import VistaPadre from './Component/VistaPadre/VistaPadre';
 import VistaPerfiles from './Component/VistaPerfiles/VistaPerfiles';
-
-
+import LoginTelefono from './Component/LoginTelefono/LoginTelefono';
+import LoginPassword from './Component/LoginPassword/LoginPassword';
+import Lector from './Component/Lector/LectorQR';
+import DatePicker from './Component/Calendario/index';
+import SplashScreen from './Component/SplashScreen/SplashScreen';
 class App extends Component {
   render() {
     return (
@@ -38,6 +41,31 @@ class App extends Component {
                             path="/VistaPadre"
                             exact
                             component={VistaPadre}
+                            />
+                        <Route
+                            path="/LoginTelefono"
+                            exact
+                            component={LoginTelefono}
+                            />
+                         <Route
+                            path="/LoginPassword"
+                            exact
+                            component={LoginPassword}
+                            />
+                        <Route
+                            path="/Lector"
+                            exact
+                            component={Lector}
+                            />
+                        <Route
+                            path="/DatePicker"
+                            exact
+                            component={DatePicker}
+                            />
+                        <Route
+                            path="/SplashScreen"
+                            exact
+                            component={SplashScreen}
                             />
                       </Switch>
                   </div>

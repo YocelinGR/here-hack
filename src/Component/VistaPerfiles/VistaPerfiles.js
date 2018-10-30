@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './VistaPerfiles.css';
+import LoginPassword from '../LoginPassword/LoginPassword';
+import LoginTelefono from '../LoginTelefono/LoginTelefono';
 
 class VistaPerfiles extends Component {
     render () {
@@ -16,10 +18,10 @@ class VistaPerfiles extends Component {
             </div>
             <div className="row">
                 <div className="row">
-                    <a href= "btn-padre" className= "btn-padre" id="padre">Padre de familia</a>
+                <a className= "btn-padre" id="padre"><Link to='/LoginTelefono'>Padre de familia</Link></a>
                 </div>
                 <div className="row">
-                <a href= "btn-conductor" className= "btn-conductor" id="conductor">Conductor</a>
+                <a className= "btn-conductor" id="conductor"><Link to='/LoginPassword'>Conductor</Link></a>
                 </div>
             </div>
         </div>

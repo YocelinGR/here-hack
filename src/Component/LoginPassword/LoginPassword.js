@@ -5,6 +5,8 @@ import './LoginPassword.css'
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import Location from '../../Location';
+import { Link} from 'react-router-dom';
+import Lector from '../Lector/LectorQR';
 
 class LoginPassword extends Component{
   state = { isSignedIn: false}
@@ -42,7 +44,7 @@ class LoginPassword extends Component{
             <button className = "btn btn-floating lighten-1 btn-user" onClick={() => firebase.auth().signOut()}>Salir</button>
           </div>
           <div className= "conductor-dasboard">
-          <button className = "btn btn-floating lighten-1 btn-user">QR Scan</button>
+          <button className = "btn btn-floating lighten-1 btn-user"><Link to='/Lector'>QR Scan</Link></button>
           </div>
         </div>
         ) : (

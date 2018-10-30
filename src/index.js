@@ -4,11 +4,11 @@ import './index.css';
 
 import App from './App.js';
 import LoginPassword from './Component/LoginPassword/LoginPassword';
-import DatePicker from './Component/Calendario/index.js';
+import VistaPerfiles from './Component/VistaPerfiles/VistaPerfiles.js';
 
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<LoginPassword />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
 
