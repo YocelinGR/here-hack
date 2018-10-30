@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import MultipleDatePicker from './Component/Calendario';
 class App extends Component {
   render() {
     return (
@@ -19,7 +19,12 @@ class App extends Component {
           >
             Learn React
           </a>
+          <MultipleDatePicker onSubmit={dates => console.log('selected dates ', dates)} minDate={new Date()} />
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
         </header>
+
       </div>
     );
   }

@@ -8,10 +8,9 @@ import LoginPassword from './Component/LoginPassword/LoginPassord';
 
 
 import * as serviceWorker from './serviceWorker';
-import Lector from './Component/Lector/LectorQR';
-ReactDOM.render(<LoginPassword />, document.getElementById('root'));
+import Calendario from './Component/Calendario';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
+
+ReactDOM.render(<Calendario/>, document.getElementById('root'));
+
 serviceWorker.unregister();
