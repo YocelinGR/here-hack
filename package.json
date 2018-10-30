@@ -11,6 +11,7 @@
     "firebase-tools": "^6.0.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-multiple-datepicker": "^0.1.0",
     "react-qr-code": "^0.1.2",
     "react-qr-scanner": "^0.0.8",
     "react-scripts": "2.0.5"
