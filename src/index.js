@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Location from './Location';
-import AddressForm from './Component/Mapa/AddressForm';
-import * as serviceWorker from './serviceWorker';
-import Calendario from './Component/Calendario';
 
+import App from './App.js';
+import LoginPassword from './Component/LoginPassword/LoginPassword.js';
 
-ReactDOM.render(<AddressForm/>, document.getElementById('root'));
+import registerServiceWorker from './registerServiceWorker';
 
-serviceWorker.unregister();
+ReactDOM.render(<LoginPassword />, document.getElementById('root'));
+registerServiceWorker();
+
 
