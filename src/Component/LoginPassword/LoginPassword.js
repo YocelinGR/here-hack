@@ -42,7 +42,7 @@ class LoginPassword extends Component{
             <button className = "btn btn-floating lighten-1 btn-user" onClick={() => firebase.auth().signOut()}>Salir</button>
           </div>
           <div className= "conductor-dasboard">
-          <button className = "btn btn-floating lighten-1 btn-user">911</button>
+          <button className = "btn btn-floating lighten-1 btn-user">QR Scan</button>
           </div>
         </div>
         ) : (

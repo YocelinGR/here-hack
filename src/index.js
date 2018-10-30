@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import App from './App.js';
-import VistaPerfiles from './Component/VistaPerfiles/VistaPerfiles';
-import Lector from './Component/Lector/LectorQR.js';
+import LoginPassword from './Component/LoginPassword/LoginPassword';
+import DatePicker from './Component/Calendario/index.js';
 
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Lector />, document.getElementById('root'));
+ReactDOM.render(<LoginPassword />, document.getElementById('root'));
 registerServiceWorker();
 
 
