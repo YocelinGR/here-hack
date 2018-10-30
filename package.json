@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "npm": "6.2.0",
-    "node": "8.11.3"
+    "node": "8.12.0"
   },
   "homepage": "https://YocelinGR.github.io/here-hack/",
   "dependencies": {
@@ -16,10 +16,9 @@
     "qrcode.react": "^0.8.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-qr-reader": "^2.1.1",
+    "react-qr-code": "^0.1.2",
     "react-qr-scanner": "^0.0.8",
-    "react-scripts": "2.0.5",
-    "twilio": "^3.23.2"
+    "react-scripts": "2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
