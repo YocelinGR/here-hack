@@ -6,9 +6,9 @@ import { defaultUtils as utils } from './dateUtils';
 import CalendarToolbar from './CalendarToolbar';
 import CalendarButtons from './CalendarButtons';
 import DateDisplay from './DateDisplay';
-
+import './Calendario.css';
 const Root = styled.div`
-  color: rgba(0, 0, 0, 0.87);
+  color: ;
   user-select: none;
   overflow: auto;
   max-width: 479px:

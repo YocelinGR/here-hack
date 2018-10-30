@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Week from './Week';
 import { defaultUtils as utils } from './dateUtils';
+import './Calendario.css';
 
 const MonthWrapper = styled.div`
   display: flex;

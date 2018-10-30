@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import DateUtilities from './utils';
 import Calendar from './Calendar';
+import './Calendario.css';
+import { Utils } from 'handlebars';
 
 const StyledDatePicker = styled.div`
   position: fixed;
@@ -132,7 +134,7 @@ class DatePicker extends Component {
     const { children } = this.props;
 
     return (
-      <div>
+      <div className="style1">
         {children ? (
           React.cloneElement(React.Children.only(children), {
             onClick: this.toggleOpen,
@@ -167,8 +169,10 @@ class DatePicker extends Component {
           </Dialog>
           <Backdrop />
         </StyledDatePicker>
+        <button class="btn-confirmar1">confirmar</button>
       </div>
     );
+    
   }
 }
 

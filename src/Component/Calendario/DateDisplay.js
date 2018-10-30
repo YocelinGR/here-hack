@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { dateTimeFormat } from './dateUtils';
+import './Calendario.css';
 
 const Root = styled.div`
   width: 165px;
