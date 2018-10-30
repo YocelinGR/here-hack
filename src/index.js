@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import Location from './Location';
 import Map from './Map';
+import LoginPassword from './Component/LoginPassword/LoginPassord';
+
+
 import * as serviceWorker from './serviceWorker';
 import Lector from './Component/Lector/LectorQR';
-ReactDOM.render(<Lector />, document.getElementById('root'));
+ReactDOM.render(<LoginPassword />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
