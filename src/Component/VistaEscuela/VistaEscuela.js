@@ -2,9 +2,9 @@ import React from 'react';
 import { Link} from 'react-router-dom';
 
 
-const VistaPadre = () => {
+const VistaEscuela = () => {
     return(
-        <h1>Vista Padre</h1>
+        <h1>VistaEscuela</h1>
     );
 }
-export default VistaPadre;
+export default VistaEscuela;

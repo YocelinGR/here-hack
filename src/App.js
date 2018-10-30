@@ -1,36 +1,49 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MultipleDatePicker from './Component/Calendario';
-import AddressForm from './Component/Mapa/AddressForm';
+import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+import VistaConductor from './Component/VistaConductor/VistaConductor';
+import VistaAdmin from './Component/VistaAdmin/VistaAdmin';
+import VistaEscuela from './Component/VistaEscuela/VistaEscuela';
+import VistaPadre from './Component/VistaPadre/VistaPadre';
+import VistaPerfiles from './Component/VistaPerfiles/VistaPerfiles';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <MultipleDatePicker onSubmit={dates => console.log('selected dates ', dates)} minDate={new Date()} />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <AddressForm />
-        </header>
-
-      </div>
+      <div>
+            <BrowserRouter>
+                <div>
+                    <Switch>
+                        <Route
+                            path="/"
+                            exact
+                            component={VistaPerfiles}
+                            />
+                        <Route
+                            path="/VistaConductor"
+                            exact
+                            component={VistaConductor}
+                            />
+                        <Route
+                            path="/VistaAdmin"
+                            exact
+                            component={VistaAdmin}
+                            />
+                        <Route
+                            path="/VistaEscuela"
+                            exact
+                            component={VistaEscuela}
+                            />
+                        <Route
+                            path="/VistaPadre"
+                            exact
+                            component={VistaPadre}
+                            />
+                      </Switch>
+                  </div>
+              </BrowserRouter>
+          </div>
     );
   }
 }
-
 export default App;
