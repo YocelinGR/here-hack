@@ -21,6 +21,10 @@
     padding-left: 5%;
     text-align: center;
 }
+.btn-padre:hover {
+    background-color: #996800;
+    color: gray;
+}
 .btn-conductor {
     width: 300px;
     height: 65px;
@@ -41,7 +45,10 @@
     padding-left: 5%;
     text-align: center;
 }
-
+.btn-conductor:hover {
+    background-color: #000000;
+    color: white;
+}
 .vertical-line-right {
     width: 80px;
     height: 6px;
