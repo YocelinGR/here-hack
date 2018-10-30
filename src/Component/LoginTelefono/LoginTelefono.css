@@ -21,9 +21,8 @@ body {
     padding-left: 5%;
     text-align: center;
 }
-.btn-padre:hover {
+.btn-acept:hover {
     background-color: #996800;
-    color: gray;
 }
 .vertical-line-right {
     width: 85px;

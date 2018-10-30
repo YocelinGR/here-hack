@@ -4,11 +4,11 @@ import './index.css';
 
 import App from './App.js';
 import VistaPerfiles from './Component/VistaPerfiles/VistaPerfiles';
-import LoginTelefono from './Component/LoginTelefono/LoginTelefono.js';
+import Lector from './Component/Lector/LectorQR.js';
 
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<LoginTelefono />, document.getElementById('root'));
+ReactDOM.render(<Lector />, document.getElementById('root'));
 registerServiceWorker();
 
 

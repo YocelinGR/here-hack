@@ -27,8 +27,16 @@ class Lector extends Component {
 
     return(
       <div className="container">
+        <div className= "container-fluid">
+                <div className= "vertical-line"></div>
+                <div className= "vertical-line-right"></div>
+                <div className= "vertical-line-left"></div>
+                <div className= "vertical-line-ligth"></div>
+                <img className= "bus-img" src="https://github.com/YocelinGR/here-hack/blob/master/src/assets/bus.png?raw=true" alt="bus-icon" />
+                <h1 className= "letter">School Security</h1>
+            </div>
         <div className ="row titulo"> 
-        <p>Validar niño a bordo</p>
+          <h4>Validar niño a bordo</h4>
         </div>
         <div className="row lector">
         <QrReader
@@ -37,10 +45,9 @@ class Lector extends Component {
           onError={this.handleError}
           onScan={this.handleScan}
           />
-          
           </div>
           <div className="row nombre">
-        <h3>{this.state.result}</h3>
+        <h5>{this.state.result}</h5>
         </div>
       </div>
     )
